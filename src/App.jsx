@@ -27,7 +27,7 @@ function App(){
     <div className="flex flex-col justify-center items-center">
       <img src={logo} className="h-[20vh] md:w-[30vw] w-[80vw]"></img>
       <IoMdSearch onClick={clicked} className="absolute mt-[20vh] md:mr-[37vw] h-[12vh] mr-[70vw]"/>
-      <input onChange={e =>{setInput(e.target.value)}} ref={inputFile} onKeyDown={handleButton} placeholder="Search Google or type a URL" className="md:w-[40vw] border-2 h-8 rounded-xl px-12 w-[80vw]"></input>
+      <input onChange={e =>{setInput(e.target.value)}} ref={inputFile} onKeyDown={handleButton} placeholder="Search Google or type a URL" className="md:w-[40vw] border-2 h-8 rounded-xl md:px-12 px-10 w-[80vw]"></input>
     </div>
 
   )
